@@ -34,6 +34,6 @@ This is a infrared thermometer also known as thermal gun used to measure body te
  * GND ---------- GND
  ### Piezo Buzzer <--------> Arduino Nano
  * I/O ---------- D4
- * VCC ---------- 3.3V
+ * VCC ---------- VIN
  * GND ---------- GND
  
