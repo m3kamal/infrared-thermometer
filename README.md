@@ -4,19 +4,19 @@ This is a infrared thermometer also known as thermal gun used to measure body te
 ## Components used
 
 ### 1. Arduino Nano 
-<img src="https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/520x330/604a3538c15e081937dbfbd20aa60aad/A/0/A000005_featured_2.jpg" height="240" width="320">
+<img src="https://store-cdn.arduino.cc/usa/catalog/product/cache/1/image/520x330/604a3538c15e081937dbfbd20aa60aad/A/0/A000005_featured_2.jpg" height="160" width="240">
 
 ### 2. OLED display 
-<img src="https://cdn.shopify.com/s/files/1/0264/7629/products/DM-OLED096-636-show_grande.jpg?v=1573547128" height="240" width="320">
+<img src="https://cdn.shopify.com/s/files/1/0264/7629/products/DM-OLED096-636-show_grande.jpg?v=1573547128" height="160" width="240">
 
 ### 3. MLX90614 IR sensor 
-<img src="https://components101.com/sites/default/files/component_pin/MLX90614-Pinout_2_0.jpg" height="240" width="320">
+<img src="https://components101.com/sites/default/files/component_pin/MLX90614-Pinout_2_0.jpg" height="160" width="240">
 
 ### 4. HC-SR04 Ultrasonic distance sensor
-<img src="https://www.robotshop.com/media/catalog/product/cache/image/1350x/9df78eab33525d08d6e5fb8d27136e95/h/c/hc-sr04-ultra01-ultrasonic-range-finder-2.png" height="280" width="320">
+<img src="https://www.robotshop.com/media/catalog/product/cache/image/1350x/9df78eab33525d08d6e5fb8d27136e95/h/c/hc-sr04-ultra01-ultrasonic-range-finder-2.png" height="160" width="200">
 
 ### 5.  Passive Piezoelectric buzzer module(only buzzer without module shown in wiring diagram)
-<img src="https://www.tdegypt.com/wp-content/uploads/2017/04/172363375298-0_600.jpg" height="240" width="320">
+<img src="https://www.tdegypt.com/wp-content/uploads/2017/04/172363375298-0_600.jpg" height="160" width="240">
 
 ## Installation
  * Download this repo as zip and extract
