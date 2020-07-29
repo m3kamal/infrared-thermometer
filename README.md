@@ -1,5 +1,5 @@
 # Infrared thermometer
-This is a infrared thermometer also known as thermal gun used to measure body temperature of person standing in front of it. It uses ultrasonic sensor to detect if something is within the specified range(default 30 cm) and show the temperature. It also provides sound alert if temperature crosses specified threshold(currently 100.4 deg F). This device can be fully configured to work as per needed.The threshold distance, temperature and alert messages and alert tones can be customized easily.
+This is a infrared thermometer also known as thermal gun used to measure body temperature of person standing in front of it. It uses ultrasonic sensor to detect if something is within the specified range(default min 30 cm and max 35 cm) and show the temperature otherwise show idle message. It also provides sound alert if temperature crosses specified threshold(currently 100.4 deg F). This device can be fully configured to work as per needed.The threshold distance, temperature and alert messages and alert tones can be customized easily.
 
 ## Components used
 * Arduino Nano
