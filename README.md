@@ -6,7 +6,7 @@ This is a infrared thermometer also known as thermal gun used to measure body te
 * 0.96" OLED monochrome display
 * MLX90614 IR sensor
 * HC-SR04 Ultrasonic distance sensor
-* Passive Piezoelectric buzzer module
+* Passive Piezoelectric buzzer module(only buzzer without module shown in diagram)
 
 ## Installation
  * Download this repo as zip and extract
