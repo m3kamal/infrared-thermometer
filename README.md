@@ -15,6 +15,7 @@ This is a infrared thermometer also known as thermal gun used to measure body te
  * compile and upload
  
 ## Wiring
+![Wiring diagram](https://github.com/m3kamal/infrared-thermometer/blob/master/wiring_fritzing_bb.jpg)
  ### OLED display <--------> Arduino Nano
  * SDA ---------- A4
  * SCL ---------- A5
