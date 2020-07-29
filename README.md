@@ -11,7 +11,7 @@ This is a infrared thermometer also known as thermal gun used to measure body te
 ## Installation
  * Download this repo as zip and extract
  * Move libraries folder inside Arduino folder usually located in My Documents
- * Open project folder
+ * Open infrared_thermometer folder and open ino file
  * compile and upload
  
 ## Wiring
