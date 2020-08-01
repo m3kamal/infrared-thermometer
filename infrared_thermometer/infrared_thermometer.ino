@@ -140,7 +140,7 @@ void readyTone()
 //play warning tone
 void warningTone()
 {
-  //play warning tone 5 times
+  //play warning tone in a loop
   for (int i = 0; i <= 3; i++) {
     tone(BUZZER_PIN, 880); // Send sound signal...
     delay(100);
