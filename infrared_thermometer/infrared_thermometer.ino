@@ -23,8 +23,9 @@
 //----------------------------------------
 
 //----------define constants---------------
-#define MIN_DISTANCE 30 //minimum distance from person (in cm)
-#define MAX_DISTANCE 35 //maximum distance from person (in cm)
+#define MIN_DISTANCE 30     //minimum distance from person (in cm)
+#define MAX_DISTANCE 40     //maximum distance from person (in cm)
+#define TEMP_OFFSET 8.52    // temperature offset due to range
 #define THRESHOLD_TEMP 100.4 //threshold temperature(in deg F) for warning alert
 #define ECHO_PIN 2
 #define TRIG_PIN 3
