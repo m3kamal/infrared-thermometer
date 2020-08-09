@@ -1,6 +1,6 @@
 
 /************************
-  Arduino IR thermal gun
+  Infrared Thermometer
  ************************
   Developed by:
   PARIKALPANA NEPAL
@@ -23,9 +23,9 @@
 //----------------------------------------
 
 //----------define constants---------------
-#define MIN_DISTANCE 30     //minimum distance from person (in cm)
-#define MAX_DISTANCE 40     //maximum distance from person (in cm)
-#define TEMP_OFFSET 8.52    // temperature offset due to range
+#define MIN_DISTANCE 0     //minimum distance from person (in cm)
+#define MAX_DISTANCE 8     //maximum distance from person (in cm)
+#define TEMP_OFFSET 0    // temperature offset due to range
 #define THRESHOLD_TEMP 100.4 //threshold temperature(in deg F) for warning alert
 #define ECHO_PIN 2
 #define TRIG_PIN 3
@@ -69,7 +69,7 @@ void setup()
 //code that run in loop
 void loop()
 {
-  float temp = ir_sensor.readObjectTempF();
+  float temp = ir_sensor.readObjectTempF() + TEMP_OFFSET;
   float distance = getDistance();
 
   if (distance >= MIN_DISTANCE && distance <= MAX_DISTANCE)
@@ -111,6 +111,7 @@ void loop()
     oled.display();
   }
   else {
+
     //clear display
     oled.clearDisplay();
 
