@@ -34,6 +34,9 @@
 #define SCREEN_WIDTH 128  // OLED display width, in pixels
 #define SCREEN_HEIGHT 64  // OLED display height, in pixels
 
+ bool ready_tone_played; //ready tone played flag
+ 
+
 //-----------------------------------------
 
 //----------initialize objects-------------
@@ -68,7 +71,7 @@ void setup()
 
 //code that run in loop
 void loop()
-{
+{ 
   float temp = ir_sensor.readObjectTempF() + TEMP_OFFSET;
   float distance = getDistance();
 
@@ -104,14 +107,15 @@ void loop()
       oled.setTextSize(1);
       oled.print("normal");
 
-      readyTone();  //play ready tone
+      if (!ready_tone_played) readyTone();  //play ready tone if not played
+      ready_tone_played=true; // set ready tone played true
     }
 
     //finally display in oled using above configs
     oled.display();
   }
   else {
-
+    ready_tone_played=false;  //set ready tone played flag false
     //clear display
     oled.clearDisplay();
 
