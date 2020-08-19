@@ -24,12 +24,12 @@
 
 //----------define constants---------------
 #define MIN_DISTANCE 25     //minimum distance from person (in cm)
-#define MAX_DISTANCE 35     //maximum distance from person (in cm)
-#define TEMP_OFFSET 6.45    // temperature offset due to range
+#define MAX_DISTANCE 35    //maximum distance from person (in cm)
+#define TEMP_OFFSET 6.25    // temperature offset due to range
 #define THRESHOLD_TEMP 100.4 //threshold temperature(in deg F) for warning alert
-#define ECHO_PIN 2
-#define TRIG_PIN 3
-#define BUZZER_PIN 9
+#define ECHO_PIN 4
+#define TRIG_PIN 5
+#define BUZZER_PIN 6
 #define OLED_ADDRESS 0x3c //I2C address for OLED display
 #define SCREEN_WIDTH 128  // OLED display width, in pixels
 #define SCREEN_HEIGHT 64  // OLED display height, in pixels
